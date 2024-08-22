@@ -89,7 +89,7 @@ def gitUrl = 'https://github.com/halfhp/androidplot.git'
 dependencies {
 
     implementation 'com.halfhp.fig:figlib:1.0.11'
-    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'androidx.annotation:annotation:1.4.0'
 
     testImplementation "org.mockito:mockito-core:4.0.0"
     testImplementation group: 'junit', name: 'junit', version: '4.13.2'
